@@ -28,8 +28,8 @@ result = divide(10,20)
 print(result)
 
 #判断是不是偶数
-def is_even(mun: int) ->bool:
-    return mun % 2 == 0
+def is_even(num: int) ->bool:
+    return num % 2 == 0
 
 result = is_even(10)
 print(result)
@@ -54,42 +54,3 @@ print(get_grade(73))
 print(get_grade(60))
 print(get_grade(45))
 
-#计算器
-# 计算器
-
-def add(a, b):
-    return a + b
-
-
-def subtract(a, b):
-    return a - b
-
-
-def multiply(a, b):
-    return a * b
-
-
-def divide(a, b):
-    return a / b
-
-
-a = float(input("请输入第一个数字: "))
-x = input("请输入运算符: ")
-b = float(input("请输入第二个数字: "))
-
-if x == "+":
-    result = add(a, b)
-
-elif x == "-":
-    result = subtract(a, b)
-
-elif x == "*":
-    result = multiply(a, b)
-
-elif x == "/":
-    result = divide(a, b)
-
-else:
-    result = "运算符错误"
-
-print(result)

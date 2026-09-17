@@ -1046,3 +1046,384 @@ break 控制结束
 下一阶段：
 
 **Python 数据结构 + 函数**
+---
+
+# 23. 函数练习
+
+本阶段完成了 Python 函数基础练习。
+
+## add()
+
+```python
+def add(a: int, b: int) -> int:
+    return a + b
+
+用于计算两个数字的和。
+
+subtract()
+def subtract(a: int, b: int) -> int:
+    return a - b
+
+用于计算两个数字的差。
+
+multiply()
+def multiply(a: int, b: int) -> int:
+    return a * b
+
+用于计算两个数字的乘积。
+
+divide()
+def divide(a: int, b: int) -> float:
+    return a / b
+
+用于计算两个数字的商。
+
+注意：除数不能为 0。
+
+is_even()
+def is_even(num: int) -> bool:
+    return num % 2 == 0
+
+使用 % 判断数字除以 2 后的余数，从而判断是否为偶数。
+
+get_grade()
+def get_grade(score: int) -> str:
+    if score >= 90:
+        return "A"
+    elif score >= 80:
+        return "B"
+    elif score >= 70:
+        return "C"
+    elif score >= 60:
+        return "D"
+    else:
+        return "E"
+
+根据分数判断成绩等级。
+
+24. 计算器项目
+
+创建：
+
+06_calculator.py
+
+使用函数实现简单计算器。
+
+支持：
+
++ 加法
+- 减法
+* 乘法
+/ 除法
+
+程序使用：
+
+input()
+float()
+def
+参数
+return
+if / elif / else
+函数调用
+
+程序流程：
+
+输入第一个数字
+        ↓
+输入运算符
+        ↓
+输入第二个数字
+        ↓
+判断运算符
+        ↓
+调用对应函数
+        ↓
+得到计算结果
+        ↓
+输出结果
+
+示例：
+
+请输入第一个数字: 10
+请输入运算符: *
+请输入第二个数字: 5
+50.0
+
+通过这个项目进一步理解了：
+
+先定义函数，再根据需要调用函数。
+
+25. 循环练习总结
+
+完成了以下循环练习：
+
+ for 循环
+ while 循环
+ range()
+ 1～100 奇数
+ 1～100 求和
+ 99 乘法表
+ 嵌套 for 循环
+
+1～100 求和结果：
+
+5050
+
+99 乘法表使用了嵌套循环和 f-string。
+
+26. Week 01 最终完成情况
+Python 基础
+ 变量
+ input()
+ int() / float()
+ f-string
+ if / elif / else
+循环
+ for
+ while
+ range()
+ break
+ continue
+ 嵌套循环
+函数
+ def
+ 参数
+ return
+ 函数调用
+ 类型注解
+ add()
+ subtract()
+ multiply()
+ divide()
+ is_even()
+ get_grade()
+综合项目
+ 猜数字游戏
+ 成绩判断
+ 计算器
+ 循环综合练习
+ 函数综合练习
+27. Week 01 状态
+
+完成度：100% ✅
+
+本周已经完成 Python 基础核心内容：
+
+变量
+ ↓
+输入
+ ↓
+类型转换
+ ↓
+条件判断
+ ↓
+循环
+ ↓
+函数
+ ↓
+综合项目
+
+下一阶段：
+
+Python 数据结构
+
+重点学习：
+
+list
+tuple
+dict
+set
+字符串操作
+列表遍历
+字典遍历
+列表推导式---
+
+# 23. 函数练习
+
+本阶段完成了 Python 函数基础练习。
+
+## add()
+
+```python
+def add(a: int, b: int) -> int:
+    return a + b
+
+用于计算两个数字的和。
+
+subtract()
+def subtract(a: int, b: int) -> int:
+    return a - b
+
+用于计算两个数字的差。
+
+multiply()
+def multiply(a: int, b: int) -> int:
+    return a * b
+
+用于计算两个数字的乘积。
+
+divide()
+def divide(a: int, b: int) -> float:
+    return a / b
+
+用于计算两个数字的商。
+
+注意：除数不能为 0。
+
+is_even()
+def is_even(num: int) -> bool:
+    return num % 2 == 0
+
+使用 % 判断数字除以 2 后的余数，从而判断是否为偶数。
+
+get_grade()
+def get_grade(score: int) -> str:
+    if score >= 90:
+        return "A"
+    elif score >= 80:
+        return "B"
+    elif score >= 70:
+        return "C"
+    elif score >= 60:
+        return "D"
+    else:
+        return "E"
+
+根据分数判断成绩等级。
+
+24. 计算器项目
+
+创建：
+
+06_calculator.py
+
+使用函数实现简单计算器。
+
+支持：
+
++ 加法
+- 减法
+* 乘法
+/ 除法
+
+程序使用：
+
+input()
+float()
+def
+参数
+return
+if / elif / else
+函数调用
+
+程序流程：
+
+输入第一个数字
+        ↓
+输入运算符
+        ↓
+输入第二个数字
+        ↓
+判断运算符
+        ↓
+调用对应函数
+        ↓
+得到计算结果
+        ↓
+输出结果
+
+示例：
+
+请输入第一个数字: 10
+请输入运算符: *
+请输入第二个数字: 5
+50.0
+
+通过这个项目进一步理解了：
+
+先定义函数，再根据需要调用函数。
+
+25. 循环练习总结
+
+完成了以下循环练习：
+
+ for 循环
+ while 循环
+ range()
+ 1～100 奇数
+ 1～100 求和
+ 99 乘法表
+ 嵌套 for 循环
+
+1～100 求和结果：
+
+5050
+
+99 乘法表使用了嵌套循环和 f-string。
+
+26. Week 01 最终完成情况
+Python 基础
+ 变量
+ input()
+ int() / float()
+ f-string
+ if / elif / else
+循环
+ for
+ while
+ range()
+ break
+ continue
+ 嵌套循环
+函数
+ def
+ 参数
+ return
+ 函数调用
+ 类型注解
+ add()
+ subtract()
+ multiply()
+ divide()
+ is_even()
+ get_grade()
+综合项目
+ 猜数字游戏
+ 成绩判断
+ 计算器
+ 循环综合练习
+ 函数综合练习
+27. Week 01 状态
+
+完成度：100% ✅
+
+本周已经完成 Python 基础核心内容：
+
+变量
+ ↓
+输入
+ ↓
+类型转换
+ ↓
+条件判断
+ ↓
+循环
+ ↓
+函数
+ ↓
+综合项目
+
+下一阶段：
+
+Python 数据结构
+
+重点学习：
+
+list
+tuple
+dict
+set
+字符串操作
+列表遍历
+字典遍历
+列表推导式
